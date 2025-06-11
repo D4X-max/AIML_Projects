@@ -137,21 +137,48 @@ nlu:
 - intent: inform_tech_area
   examples: |
     - data science
-    - software development
-    - cybersecurity
     - I'm interested in data science
-    - I want to learn software development
-    - I think cybersecurity is cool
-    - I'm leaning towards data science
-    - I'd like to work in software development
+    - I want to learn data science
+    - I want to become a data scientist
+    - I am passionate about data science
+    - software development
+    - I want to be a software developer
+    - I'm interested in software development
+    - I love software development
+    - I want to build software
+    - I'm into software engineering
+    - cybersecurity
+    - I want to work in cybersecurity
+    - I'm interested in cybersecurity
+    - I want to be a cybersecurity analyst
+    - I want to learn about cybersecurity
+    - I like cybersecurity
+    - I want to protect systems from hackers
+    - I prefer data science over software development
+    - I prefer software development over cybersecurity
+    - I prefer cybersecurity over data science
+    - I want to specialize in data science
+    - My focus is on software development
+    - My main interest is cybersecurity
+
 
 - intent: inform_data_science_area
   examples: |
     - building AI models
-    - research
-    - analyzing business data
     - I want to build AI models
-    - I'm interested in research
-    - I like analyzing business data
-    - Building AI models sounds interesting
+    - I am interested in building AI models
+    - research
     - I want to do research in data science
+    - I am interested in research
+    - analyzing business data
+    - I want to analyze business data
+    - I am interested in analyzing business data
+    - I like building AI models
+    - My focus is on research
+    - I prefer analyzing business data
+    - I want to work in AI research
+    - I want to be a data science researcher
+    - I want to analyze data for companies
+    - I want to work with AI models
+    - I am passionate about AI research
+

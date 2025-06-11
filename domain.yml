@@ -58,15 +58,26 @@ responses:
   
   utter_ask_tech_area:
     - text: "Are you more interested in software development, data science, or cybersecurity?"
+    - text: "Which area excites you most: software development, data science, or cybersecurity?"
+    - text: "Out of software development, data science, and cybersecurity, which would you like to explore?"
+
 
   utter_ask_data_science_area:
     - text: "Are you interested in research, building AI models, or analyzing business data?"
 
   utter_recommend_ml_engineer:
-    - text: "That’s fantastic! You might enjoy a career as a Machine Learning Engineer or AI Researcher."
+    - text: "That's fantastic! You might enjoy a career as a Machine Learning Engineer or AI Researcher."
+
+  utter_recommend_cybersecurity:
+    - text: "Cybersecurity is a fast-growing field! You might enjoy becoming a Cybersecurity Analyst, Penetration Tester, or Security Architect."
+
+  utter_recommend_software_development:
+    - text: "Software development is a great choice! Careers include Software Engineer, Web Developer, or Mobile App Developer."
+
 
 actions:
   - action_recommend_career
+
 
 
 

@@ -71,6 +71,24 @@ stories:
     - intent: bot_challenge
     - action: utter_iamabot
 
+- story: tech career - cybersecurity
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: inform_main_interest
+    - action: utter_ask_tech_area
+    - intent: inform_tech_area
+    - action: utter_recommend_cybersecurity
+
+- story: tech career - software development
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: inform_main_interest
+    - action: utter_ask_tech_area
+    - intent: inform_tech_area
+    - action: utter_recommend_software_development
+
 
 
 
