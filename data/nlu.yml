@@ -122,3 +122,23 @@ nlu:
     - I'm thinking about a career in marketing.
     - How do I become a business analyst?
 
+- intent: inform_main_interest
+  examples: |
+    - I love coding
+    - I'm interested in technology
+    - I like art
+    - I enjoy business
+
+- intent: inform_tech_area
+  examples: |
+    - data science
+    - software development
+    - cybersecurity
+
+- intent: inform_data_science_area
+  examples: |
+    - building AI models
+    - research
+    - analyzing business data
+
+

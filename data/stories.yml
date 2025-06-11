@@ -51,4 +51,22 @@ stories:
     - intent: affirm
     - action: utter_ask_interest
 
+- story: guided tech career path
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: inform_main_interest
+      entities:
+        - main_interest: technology
+    - action: utter_ask_tech_area
+    - intent: inform_tech_area
+      entities:
+        - tech_area: data science
+    - action: utter_ask_data_science_area
+    - intent: inform_data_science_area
+      entities:
+        - data_science_area: building AI models
+    - action: utter_recommend_ml_engineer
+
+
 

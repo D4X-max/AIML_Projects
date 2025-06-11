@@ -39,8 +39,31 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+  responses:
+  utter_greet:
+  - text: "Welcome! What do you enjoy doing? Let's find your ideal career."
+  utter_ask_tech_area:
+  - text: "Are you more interested in software development, data science, or cybersecurity?"
+  utter_ask_data_science_area:
+  - text: "Are you interested in research, building AI models, or analyzing business data?"
+  utter_recommend_ml_engineer:
+  - text: "That’s fantastic! You might enjoy a career as a Machine Learning Engineer or AI Researcher."
+
+
 actions:
   - action_recommend_career
+
+slots:
+  main_interest:
+    type: text
+    influence_conversation: true
+  tech_area:
+    type: text
+    influence_conversation: true
+  data_science_area:
+    type: text
+    influence_conversation: true
+
 
 
 session_config:
