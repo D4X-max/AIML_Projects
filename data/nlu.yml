@@ -46,7 +46,7 @@ nlu:
     - never
     - I don't think so
     - don't like that
-    - no way
+    - no way  
     - not really
 
 - intent: mood_great
@@ -134,51 +134,32 @@ nlu:
     - My favorite field is technology
     - I'm into the arts
 
-- intent: inform_tech_area
+- intent: inform_software_development
+  examples: |
+    - software development
+    - I want to work in software development
+    - I'm interested in software development
+    - I want to be a software developer
+
+- intent: inform_data_science
   examples: |
     - data science
+    - I want to work in data science
     - I'm interested in data science
-    - I want to learn data science
-    - I want to become a data scientist
-    - I am passionate about data science
-    - software development
-    - I want to be a software developer
-    - I'm interested in software development
-    - I love software development
-    - I want to build software
-    - I'm into software engineering
+    - I want to be a data scientist
+
+- intent: inform_cybersecurity
+  examples: |
     - cybersecurity
     - I want to work in cybersecurity
     - I'm interested in cybersecurity
     - I want to be a cybersecurity analyst
-    - I want to learn about cybersecurity
-    - I like cybersecurity
-    - I want to protect systems from hackers
-    - I prefer data science over software development
-    - I prefer software development over cybersecurity
-    - I prefer cybersecurity over data science
-    - I want to specialize in data science
-    - My focus is on software development
-    - My main interest is cybersecurity
 
-
-- intent: inform_data_science_area
+- intent: inform_tech_area
   examples: |
-    - building AI models
-    - I want to build AI models
-    - I am interested in building AI models
-    - research
-    - I want to do research in data science
-    - I am interested in research
-    - analyzing business data
-    - I want to analyze business data
-    - I am interested in analyzing business data
-    - I like building AI models
-    - My focus is on research
-    - I prefer analyzing business data
-    - I want to work in AI research
-    - I want to be a data science researcher
-    - I want to analyze data for companies
-    - I want to work with AI models
-    - I am passionate about AI research
+    - I am interested in AI
+    - I like working with hardware
+    - I'm passionate about web development
+
+
 

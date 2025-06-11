@@ -34,21 +34,41 @@ class ActionRecommendCareer(Action):
         return "action_recommend_career"
 
     def run(self, dispatcher, tracker, domain):
+        # Retrieve and normalize the main_interest slot
         main_interest = tracker.get_slot('main_interest')
+        response = ""
+
         if main_interest:
-            if "tech" in main_interest or "technology" in main_interest or "coding" in main_interest:
-                response = "Great! Are you more interested in software development, data science, or cybersecurity?"
-            elif "art" in main_interest or "arts" in main_interest or "music" in main_interest:
-                response = "Wonderful! Are you more interested in visual arts, performing arts, or writing?"
-            elif "commerce" in main_interest or "business" in main_interest or "finance" in main_interest:
-                response = "Awesome! Would you like to know more about business management, finance, or marketing?"
+            main_interest = main_interest.strip().lower()
+            # Tech branch
+            if any(keyword in main_interest for keyword in ["tech", "technology", "coding", "programming", "software", "computer"]):
+                response = (
+                    "Great! Are you more interested in software development, data science, or cybersecurity?"
+                )
+            # Arts branch
+            elif any(keyword in main_interest for keyword in ["art", "arts", "music", "painting", "drawing", "creative", "design", "theater"]):
+                response = (
+                    "Wonderful! Are you more interested in visual arts, performing arts, or writing?"
+                )
+            # Commerce branch
+            elif any(keyword in main_interest for keyword in ["commerce", "business", "finance", "accounting", "economics", "marketing"]):
+                response = (
+                    "Awesome! Would you like to know more about business management, finance, or marketing?"
+                )
+            # Fallback for unrecognized interests
             else:
-                response = "That's interesting! Could you tell me more about what you enjoy?"
+                response = (
+                    "That's interesting! Could you tell me a bit more about what you enjoy or your favorite subjects?"
+                )
         else:
-            response = "I'm here to help you find a career path! Could you tell me more about your interests or what you enjoy doing?"
+            # If the slot isn't set, ask for user interests
+            response = (
+                "I'm here to help you find a career path! Could you tell me more about your interests or what you enjoy doing?"
+            )
 
         dispatcher.utter_message(text=response)
         return []
+
 
 
 

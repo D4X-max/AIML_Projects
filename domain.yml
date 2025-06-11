@@ -12,8 +12,11 @@ intents:
   - arts_interest
   - commerce_interest
   - inform_main_interest
-  - inform_tech_area
+  - inform_software_development
+  - inform_data_science
+  - inform_cybersecurity
   - inform_data_science_area
+
 
 slots:
   main_interest:
@@ -61,7 +64,6 @@ responses:
     - text: "Which area excites you most: software development, data science, or cybersecurity?"
     - text: "Out of software development, data science, and cybersecurity, which would you like to explore?"
 
-
   utter_ask_data_science_area:
     - text: "Are you interested in research, building AI models, or analyzing business data?"
 
@@ -74,14 +76,10 @@ responses:
   utter_recommend_software_development:
     - text: "Software development is a great choice! Careers include Software Engineer, Web Developer, or Mobile App Developer."
 
-
 actions:
   - action_recommend_career
-
-
-
-
 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
