@@ -12,57 +12,59 @@ intents:
   - arts_interest
   - commerce_interest
 
+slots:
+  main_interest:
+    type: text
+    mappings:
+      - type: from_text
+  tech_area:
+    type: text
+    mappings:
+      - type: from_text
+  data_science_area:
+    type: text
+    mappings:
+      - type: from_text
+
 responses:
   utter_ask_interest:
-  - text: "Tell me about what subjects or activities you enjoy most."
-  - text: "What are your hobbies or favorite classes?"
-  - text: "What kind of work excites you?"
+    - text: "Tell me about what subjects or activities you enjoy most."
+    - text: "What are your hobbies or favorite classes?"
+    - text: "What kind of work excites you?"
 
   utter_greet:
-  - text: "Hi there! I'm your AI Career Counsellor. What are you passionate about?"
-  - text: "Hello! Tell me about your interests, and I'll suggest some career paths."
-  - text: "Welcome! What do you enjoy doing? Let's find your ideal career."
+    - text: "Hi there! I'm your AI Career Counsellor. What are you passionate about?"
+    - text: "Hello! Tell me about your interests, and I'll suggest some career paths."
+    - text: "Welcome! What do you enjoy doing? Let's find your ideal career."
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+    - text: "Did that help you?"
 
   utter_happy:
-  - text: "Great, carry on!"
+    - text: "Great, carry on!"
 
   utter_goodbye:
-  - text: "Bye"
+    - text: "Bye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
-  responses:
-  utter_greet:
-  - text: "Welcome! What do you enjoy doing? Let's find your ideal career."
+    - text: "I am a bot, powered by Rasa."
+  
   utter_ask_tech_area:
-  - text: "Are you more interested in software development, data science, or cybersecurity?"
-  utter_ask_data_science_area:
-  - text: "Are you interested in research, building AI models, or analyzing business data?"
-  utter_recommend_ml_engineer:
-  - text: "That’s fantastic! You might enjoy a career as a Machine Learning Engineer or AI Researcher."
+    - text: "Are you more interested in software development, data science, or cybersecurity?"
 
+  utter_ask_data_science_area:
+    - text: "Are you interested in research, building AI models, or analyzing business data?"
+
+  utter_recommend_ml_engineer:
+    - text: "That’s fantastic! You might enjoy a career as a Machine Learning Engineer or AI Researcher."
 
 actions:
   - action_recommend_career
 
-slots:
-  main_interest:
-    type: text
-    influence_conversation: true
-  tech_area:
-    type: text
-    influence_conversation: true
-  data_science_area:
-    type: text
-    influence_conversation: true
 
 
 

@@ -128,17 +128,30 @@ nlu:
     - I'm interested in technology
     - I like art
     - I enjoy business
+    - My main interest is technology
+    - I'm passionate about art
+    - I think I'm more into commerce
+    - My favorite field is technology
+    - I'm into the arts
 
 - intent: inform_tech_area
   examples: |
     - data science
     - software development
     - cybersecurity
+    - I'm interested in data science
+    - I want to learn software development
+    - I think cybersecurity is cool
+    - I'm leaning towards data science
+    - I'd like to work in software development
 
 - intent: inform_data_science_area
   examples: |
     - building AI models
     - research
     - analyzing business data
-
-
+    - I want to build AI models
+    - I'm interested in research
+    - I like analyzing business data
+    - Building AI models sounds interesting
+    - I want to do research in data science

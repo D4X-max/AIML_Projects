@@ -4,45 +4,30 @@ stories:
 
 - story: happy path
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_great
+    - action: utter_happy
 
 - story: sad path 1
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_unhappy
+    - action: utter_cheer_up
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_happy
 
 - story: sad path 2
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
-
-- story: recommend tech career
-  steps:
-    - intent: tech_interest
-    - action: action_recommend_career
-
-- story: recommend arts career
-  steps:
-    - intent: arts_interest
-    - action: action_recommend_career
-
-- story: recommend commerce career
-  steps:
-    - intent: commerce_interest
-    - action: action_recommend_career
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_unhappy
+    - action: utter_cheer_up
+    - action: utter_did_that_help
+    - intent: deny
+    - action: utter_goodbye
 
 - story: tech interest with follow-up
   steps:
@@ -56,17 +41,36 @@ stories:
     - intent: greet
     - action: utter_greet
     - intent: inform_main_interest
-      entities:
-        - main_interest: technology
     - action: utter_ask_tech_area
     - intent: inform_tech_area
-      entities:
-        - tech_area: data science
     - action: utter_ask_data_science_area
     - intent: inform_data_science_area
-      entities:
-        - data_science_area: building AI models
     - action: utter_recommend_ml_engineer
+
+- story: arts interest with follow-up
+  steps:
+    - intent: arts_interest
+    - action: action_recommend_career
+    - intent: affirm
+    - action: utter_ask_interest
+
+- story: commerce interest with follow-up
+  steps:
+    - intent: commerce_interest
+    - action: action_recommend_career
+    - intent: affirm
+    - action: utter_ask_interest
+
+- story: goodbye path
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: bot challenge
+  steps:
+    - intent: bot_challenge
+    - action: utter_iamabot
+
 
 
 
