@@ -13,8 +13,15 @@ intents:
   - commerce_interest
 
 responses:
+  utter_ask_interest:
+  - text: "Tell me about what subjects or activities you enjoy most."
+  - text: "What are your hobbies or favorite classes?"
+  - text: "What kind of work excites you?"
+
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hi there! I'm your AI Career Counsellor. What are you passionate about?"
+  - text: "Hello! Tell me about your interests, and I'll suggest some career paths."
+  - text: "Welcome! What do you enjoy doing? Let's find your ideal career."
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"

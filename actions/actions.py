@@ -26,32 +26,54 @@
 #
 #         return []
 
-from typing import Any, Text, Dict, List
+import random
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 
 class ActionRecommendCareer(Action):
-
-    def name(self) -> Text:
+    def name(self):
         return "action_recommend_career"
 
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        # Get the last user message
+    def run(self, dispatcher, tracker, domain):
         user_message = tracker.latest_message.get('text', '').lower()
+        tech_careers = [
+            "Software Developer", "Data Scientist", "Cybersecurity Analyst", "AI Engineer", "Web Developer"
+        ]
+        arts_careers = [
+            "Graphic Designer", "Musician", "Animator", "Writer", "Photographer"
+        ]
+        commerce_careers = [
+            "Accountant", "Financial Analyst", "Business Manager", "Marketing Specialist", "Entrepreneur"
+        ]
 
-        # Simple keyword-based logic
-        if any(word in user_message for word in ['tech', 'technology', 'programming', 'coding', 'software']):
-            recommendation = "You seem interested in technology! Consider careers like Software Developer, Data Scientist, or IT Consultant."
-        elif any(word in user_message for word in ['art', 'painting', 'drawing', 'music', 'design']):
-            recommendation = "You seem interested in the arts! Consider careers like Graphic Designer, Musician, or Animator."
-        elif any(word in user_message for word in ['commerce', 'business', 'finance', 'accounting', 'economics']):
-            recommendation = "You seem interested in commerce! Consider careers like Accountant, Financial Analyst, or Business Manager."
+        if any(word in user_message for word in ['tech', 'technology', 'programming', 'coding', 'software', 'it', 'developer']):
+            career = random.choice(tech_careers)
+            response = (
+                f"It sounds like you're interested in technology! "
+                f"Have you considered becoming a {career}? "
+                "What specific areas in tech excite you most?"
+            )
+        elif any(word in user_message for word in ['art', 'painting', 'drawing', 'music', 'design', 'photography', 'writing', 'creative']):
+            career = random.choice(arts_careers)
+            response = (
+                f"Your passion for the arts is wonderful! "
+                f"Have you thought about a career as a {career}? "
+                "Are you more interested in visual arts, performing arts, or writing?"
+            )
+        elif any(word in user_message for word in ['commerce', 'business', 'finance', 'accounting', 'economics', 'marketing', 'entrepreneur']):
+            career = random.choice(commerce_careers)
+            response = (
+                f"Business and commerce offer many exciting opportunities. "
+                f"You might enjoy working as a {career}. "
+                "Would you like to know more about business management, finance, or marketing?"
+            )
         else:
-            recommendation = "Tell me more about your interests so I can recommend a suitable career path!"
+            response = (
+                "I'm here to help you find a career path! "
+                "Could you tell me more about your interests or what you enjoy doing?"
+            )
 
-        dispatcher.utter_message(text=recommendation)
+        dispatcher.utter_message(text=response)
         return []
+
 

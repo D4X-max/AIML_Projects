@@ -92,22 +92,33 @@ nlu:
 
 - intent: tech_interest
   examples: |
-    - I like computers and programming
-    - I'm interested in technology
-    - I want a career in IT
-    - I love coding
+    - I'm passionate about computers and coding.
+    - Technology fascinates me.
+    - I want to work in the IT sector.
+    - Are there good jobs in software?
+    - I love solving tech problems.
+    - How can I become a programmer?
+    - I enjoy building apps and websites.
+    - Technology
+    - smartphones
 
 - intent: arts_interest
   examples: |
-    - I enjoy painting and drawing
-    - I'm interested in arts
-    - I want to be a designer
-    - I love music and performing
+    - Art is my favorite subject.
+    - I want to be a professional artist.
+    - I'm interested in music and theater.
+    - Can I have a career in painting?
+    - I enjoy photography and creative work.
+    - I love writing stories and poems.
+    - How can I get into design?
 
 - intent: commerce_interest
   examples: |
-    - I like business and finance
-    - I'm interested in commerce
-    - I want to work in accounting
-    - I enjoy economics
+    - I want to start a business someday.
+    - Finance and economics are interesting to me.
+    - What are some good jobs in commerce?
+    - I like managing money and investments.
+    - Is accounting a good career?
+    - I'm thinking about a career in marketing.
+    - How do I become a business analyst?
 

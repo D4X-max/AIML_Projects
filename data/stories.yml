@@ -44,3 +44,11 @@ stories:
     - intent: commerce_interest
     - action: action_recommend_career
 
+- story: tech interest with follow-up
+  steps:
+    - intent: tech_interest
+    - action: action_recommend_career
+    - intent: affirm
+    - action: utter_ask_interest
+
+
