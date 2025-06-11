@@ -28,3 +28,19 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: recommend tech career
+  steps:
+    - intent: tech_interest
+    - action: action_recommend_career
+
+- story: recommend arts career
+  steps:
+    - intent: arts_interest
+    - action: action_recommend_career
+
+- story: recommend commerce career
+  steps:
+    - intent: commerce_interest
+    - action: action_recommend_career
+
