@@ -11,6 +11,9 @@ intents:
   - tech_interest
   - arts_interest
   - commerce_interest
+  - inform_main_interest
+  - inform_tech_area
+  - inform_data_science_area
 
 slots:
   main_interest:
