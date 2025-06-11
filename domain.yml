@@ -8,6 +8,9 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - tech_interest
+  - arts_interest
+  - commerce_interest
 
 responses:
   utter_greet:
