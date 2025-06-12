@@ -90,6 +90,21 @@ stories:
     - intent: inform_data_science_area
     - action: utter_recommend_ml_engineer
 
+- story: repeat data science
+  steps:
+    - intent: inform_data_science
+    - action: utter_ask_data_science_area
+    - intent: inform_data_science
+    - action: utter_ask_data_science_area
+
+- story: switch to cybersecurity
+  steps:
+    - intent: inform_data_science
+    - action: utter_ask_data_science_area
+    - intent: inform_cybersecurity
+    - action: utter_recommend_cybersecurity
+
+
 
 
 

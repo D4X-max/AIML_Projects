@@ -1,0 +1,19 @@
+{
+  "0": "affirm",
+  "1": "arts_interest",
+  "2": "bot_challenge",
+  "3": "commerce_interest",
+  "4": "deny",
+  "5": "goodbye",
+  "6": "greet",
+  "7": "inform_cybersecurity",
+  "8": "inform_data_science",
+  "9": "inform_data_science_area",
+  "10": "inform_main_interest",
+  "11": "inform_software_development",
+  "12": "inform_tech_area",
+  "13": "mood_great",
+  "14": "mood_unhappy",
+  "15": "restart",
+  "16": "tech_interest"
+}

@@ -147,6 +147,7 @@ nlu:
     - I want to work in data science
     - I'm interested in data science
     - I want to be a data scientist
+    - data science sounds fun
 
 - intent: inform_cybersecurity
   examples: |
@@ -154,6 +155,7 @@ nlu:
     - I want to work in cybersecurity
     - I'm interested in cybersecurity
     - I want to be a cybersecurity analyst
+    - cybersecurity sounds interesting
 
 - intent: inform_tech_area
   examples: |
@@ -175,6 +177,9 @@ nlu:
     - I enjoy research
     - research sounds interesting
     - I like reserach   # (include common typos if you want to be extra robust)
+
+
+
 
 
 
