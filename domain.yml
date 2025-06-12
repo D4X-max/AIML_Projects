@@ -37,7 +37,6 @@ responses:
     - text: "Tell me about what subjects or activities you enjoy most."
     - text: "What are your hobbies or favorite classes?"
     - text: "What kind of work excites you?"
-
   utter_greet:
     - text: "Hi there! I'm your AI Career Counsellor. What are you passionate about?"
     - text: "Hello! Tell me about your interests, and I'll suggest some career paths."
@@ -70,11 +69,16 @@ responses:
   utter_recommend_ml_engineer:
     - text: "That's fantastic! You might enjoy a career as a Machine Learning Engineer or AI Researcher."
 
+
   utter_recommend_cybersecurity:
     - text: "Cybersecurity is a fast-growing field! You might enjoy becoming a Cybersecurity Analyst, Penetration Tester, or Security Architect."
 
   utter_recommend_software_development:
     - text: "Software development is a great choice! Careers include Software Engineer, Web Developer, or Mobile App Developer."
+
+  utter_default:
+    - text: "Sorry, I didn't quite understand. Could you clarify your interest?"
+
 
 actions:
   - action_recommend_career

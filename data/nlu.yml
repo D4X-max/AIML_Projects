@@ -161,5 +161,21 @@ nlu:
     - I like working with hardware
     - I'm passionate about web development
 
+- intent: inform_data_science_area
+  examples: |
+    - research
+    - I like research
+    - I want to do research
+    - I'm interested in research
+    - building AI models
+    - I want to build AI models
+    - analyzing business data
+    - I want to analyze business data
+    - I like analyzing business data
+    - I enjoy research
+    - research sounds interesting
+    - I like reserach   # (include common typos if you want to be extra robust)
+
+
 
 
