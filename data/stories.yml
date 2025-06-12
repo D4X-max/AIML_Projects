@@ -158,6 +158,51 @@ stories:
     - intent: inform_commerce_marketing
     - action: utter_recommend_commerce_marketing
 
+- story: switch from tech to arts
+  steps:
+    - intent: inform_software_development
+    - action: utter_recommend_software_development
+    - intent: arts_interest
+    - action: action_recommend_career
+    - intent: affirm
+    - action: utter_ask_interest
+
+- story: switch from tech to commerce
+  steps:
+    - intent: inform_data_science
+    - action: utter_ask_data_science_area
+    - intent: commerce_interest
+    - action: action_recommend_career
+    - intent: affirm
+    - action: utter_ask_interest
+
+- story: switch from arts to tech
+  steps:
+    - intent: arts_interest
+    - action: action_recommend_career
+    - intent: tech_interest
+    - action: action_recommend_career
+    - intent: inform_cybersecurity
+    - action: utter_recommend_cybersecurity
+
+- story: switch from commerce to tech
+  steps:
+    - intent: commerce_interest
+    - action: action_recommend_career
+    - intent: tech_interest
+    - action: action_recommend_career
+    - intent: inform_software_development
+    - action: utter_recommend_software_development
+
+- story: tech follow-up open ended
+  steps:
+    - intent: tech_interest
+    - action: action_recommend_career
+    - intent: affirm
+    - action: utter_ask_why_tech
+
+
+
 
 
 

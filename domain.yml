@@ -44,6 +44,9 @@ responses:
     - text: "Tell me about what subjects or activities you enjoy most."
     - text: "What are your hobbies or favorite classes?"
     - text: "What kind of work excites you?"
+    - text: "Is there anything you love learning about or doing in your free time?"
+    - text: "If you could do anything for a day, what would it be?"
+    - text: "What do you find most interesting in school or outside of it?"
   utter_greet:
     - text: "Hi there! I'm your AI Career Counsellor. What are you passionate about?"
     - text: "Hello! Tell me about your interests, and I'll suggest some career paths."
@@ -110,6 +113,11 @@ responses:
 
   utter_recommend_commerce_marketing:
     - text: "Marketing is dynamic and creative! You might enjoy being a marketing specialist or brand manager."
+
+
+  utter_ask_why_tech:
+    - text: "What draws you to technology? Is it problem-solving, creativity, or something else?"
+    - text: "Can you tell me what excites you most about tech fields?"
 
 
 actions:
