@@ -104,6 +104,61 @@ stories:
     - intent: inform_cybersecurity
     - action: utter_recommend_cybersecurity
 
+- story: arts career path
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: arts_interest
+    - action: utter_ask_arts_area
+    - intent: inform_arts_visual
+    - action: utter_recommend_arts_visual
+
+- story: arts career performing
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: arts_interest
+    - action: utter_ask_arts_area
+    - intent: inform_arts_performing
+    - action: utter_recommend_arts_performing
+
+- story: arts career writing
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: arts_interest
+    - action: utter_ask_arts_area
+    - intent: inform_arts_writing
+    - action: utter_recommend_arts_writing
+
+- story: commerce career management
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: commerce_interest
+    - action: utter_ask_commerce_area
+    - intent: inform_commerce_management
+    - action: utter_recommend_commerce_management
+
+- story: commerce career finance
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: commerce_interest
+    - action: utter_ask_commerce_area
+    - intent: inform_commerce_finance
+    - action: utter_recommend_commerce_finance
+
+- story: commerce career marketing
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: commerce_interest
+    - action: utter_ask_commerce_area
+    - intent: inform_commerce_marketing
+    - action: utter_recommend_commerce_marketing
+
+
 
 
 

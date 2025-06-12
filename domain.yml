@@ -16,6 +16,13 @@ intents:
   - inform_data_science
   - inform_cybersecurity
   - inform_data_science_area
+  - inform_arts_visual
+  - inform_arts_performing
+  - inform_arts_writing
+  - inform_commerce_management
+  - inform_commerce_finance
+  - inform_commerce_marketing
+
 
 
 slots:
@@ -78,6 +85,31 @@ responses:
 
   utter_default:
     - text: "Sorry, I didn't quite understand. Could you clarify your interest?"
+
+
+  utter_ask_arts_area:
+    - text: "Are you more interested in visual arts, performing arts, or writing?"
+
+  utter_recommend_arts_visual:
+    - text: "Visual arts is a wonderful field! You might enjoy being a painter, illustrator, or sculptor."
+
+  utter_recommend_arts_performing:
+    - text: "Performing arts is exciting! You could explore careers in music, dance, or theater."
+
+  utter_recommend_arts_writing:
+    - text: "Writing is a creative path! You might enjoy being an author, poet, or screenwriter."
+
+  utter_ask_commerce_area:
+    - text: "Would you like to know more about business management, finance, or marketing?"
+
+  utter_recommend_commerce_management:
+    - text: "Business management is a versatile field! Consider roles like business manager or entrepreneur."
+
+  utter_recommend_commerce_finance:
+    - text: "Finance offers many opportunities! You could become a financial analyst or accountant."
+
+  utter_recommend_commerce_marketing:
+    - text: "Marketing is dynamic and creative! You might enjoy being a marketing specialist or brand manager."
 
 
 actions:

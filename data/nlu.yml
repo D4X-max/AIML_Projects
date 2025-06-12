@@ -178,6 +178,52 @@ nlu:
     - research sounds interesting
     - I like reserach   # (include common typos if you want to be extra robust)
 
+- intent: inform_arts_visual
+  examples: |
+    - visual arts
+    - I like painting
+    - I am interested in drawing
+    - I enjoy sculpture
+    - I want to do visual arts
+
+- intent: inform_arts_performing
+  examples: |
+    - performing arts
+    - I like music
+    - I want to act
+    - I enjoy theater
+    - I am interested in dance
+
+- intent: inform_arts_writing
+  examples: |
+    - writing
+    - I like writing
+    - I want to write stories
+    - I enjoy poetry
+    - I am interested in creative writing
+
+- intent: inform_commerce_management
+  examples: |
+    - business management
+    - I want to be a manager
+    - I like managing people
+    - I am interested in business management
+
+- intent: inform_commerce_finance
+  examples: |
+    - finance
+    - I want to work in finance
+    - I am interested in finance
+    - I like finance
+
+- intent: inform_commerce_marketing
+  examples: |
+    - marketing
+    - I want to work in marketing
+    - I am interested in marketing
+    - I like marketing
+
+
 
 
 
