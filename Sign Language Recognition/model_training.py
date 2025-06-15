@@ -1,9 +1,13 @@
+import os
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 IMG_SIZE = 128  # Adjust based on your images
 BATCH_SIZE = 32
 DATA_DIR = 'data'
+
+# Ensure the 'models' directory exists
+os.makedirs('models', exist_ok=True)
 
 datagen = ImageDataGenerator(
     rescale=1./255,
@@ -45,6 +49,7 @@ history = model.fit(
     validation_data=val_data
 )
 
-model.save('sign_language_model.h5')
+# Save your model in the 'models' directory using the Keras format
+model.save('models/sign_language_model.keras')
 
-print("Model saved successfully!")
+print("Model saved successfully in the 'models' directory!")
