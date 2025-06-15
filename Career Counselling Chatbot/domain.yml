@@ -22,6 +22,8 @@ intents:
   - inform_commerce_management
   - inform_commerce_finance
   - inform_commerce_marketing
+  - data_science_task
+  - preferred_industry
 
 
 
@@ -38,6 +40,16 @@ slots:
     type: text
     mappings:
       - type: from_text
+      
+  data_science_task:
+    type: text
+    mappings:
+      - type: from_text
+  preferred_industry:
+    type: text
+    mappings:
+      - type: from_text
+
 
 responses:
   utter_ask_interest:
@@ -118,6 +130,17 @@ responses:
   utter_ask_why_tech:
     - text: "What draws you to technology? Is it problem-solving, creativity, or something else?"
     - text: "Can you tell me what excites you most about tech fields?"
+
+  
+  utter_ask_data_science_task:
+    - text: "What do you enjoy most in data science: analyzing data, building models, data visualization, or research?"
+
+  utter_ask_preferred_industry:
+    - text: "Is there any industry you'd like to work in? (e.g., healthcare, finance, education, technology, etc.)"
+
+  utter_recommend_data_science_personalized:
+    - text: "That's awesome! With your interest in {data_science_task} in the {preferred_industry} industry, you could explore roles like Data Scientist, Machine Learning Engineer, or AI Specialist."
+
 
 
 actions:

@@ -223,6 +223,31 @@ nlu:
     - I am interested in marketing
     - I like marketing
 
+- intent: data_science_task
+  examples: |
+    - I like analyzing data
+    - I enjoy building models
+    - I prefer data visualization
+    - I want to do research
+    - I love working with big data
+    - building models
+    - analyzing data
+    - data visualization
+    - research
+
+- intent: preferred_industry
+  examples: |
+    - healthcare
+    - finance
+    - education
+    - technology
+    - I want to work in healthcare
+    - I prefer finance
+    - education sector
+    - tech industry
+    - I am interested in technology companies
+
+
 
 
 
