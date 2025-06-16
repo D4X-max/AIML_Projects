@@ -24,6 +24,9 @@ intents:
   - inform_commerce_marketing
   - data_science_task
   - preferred_industry
+  - feedback_positive
+  - feedback_negative
+  - restart
 
 
 
@@ -140,6 +143,13 @@ responses:
 
   utter_recommend_data_science_personalized:
     - text: "That's awesome! With your interest in {data_science_task} in the {preferred_industry} industry, you could explore roles like Data Scientist, Machine Learning Engineer, or AI Specialist."
+
+  utter_ask_feedback:
+    - text: "Was this recommendation helpful to you?"
+  utter_feedback_thanks:
+    - text: "Thanks for your feedback! I'm here if you want to explore more options."
+  utter_feedback_sorry:
+    - text: "I'm sorry to hear that. Let's try a different path or you can restart anytime."
 
 
 

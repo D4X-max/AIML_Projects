@@ -249,6 +249,75 @@ nlu:
     - tech industry
     - I am interested in technology companies
 
+- intent: feedback_positive
+  examples: |
+    - yes
+    - that's helpful
+    - thank you
+    - very useful
+    - I like this suggestion
+    - great, thanks!
+    - that works
+    - perfect!
+    - exactly what I needed
+    - appreciate it
+    - awesome, thank you
+    - that was useful
+    - makes sense, thanks
+    - cool, got it
+    - lovely, thanks!
+    - helpful indeed
+    - thanks for the info
+    - cheers!
+    - works for me
+    - I'm happy with this
+    - sounds good
+
+- intent: feedback_negative
+  examples: |
+    - no
+    - not really
+    - I don't like this
+    - that's not helpful
+    - can I see something else?
+    - this isn't what I wanted
+    - not useful
+    - doesn't help
+    - I’m not satisfied with that
+    - that’s confusing
+    - I was expecting something different
+    - this doesn’t work for me
+    - not what I meant
+    - not quite right
+    - I need a better suggestion
+    - this isn’t correct
+    - nope
+    - nah
+    - I don’t think so
+    - sorry, that’s not it
+
+
+- intent: restart
+  examples: |
+    - restart
+    - start over
+    - can we start again?
+    - let’s begin again
+    - I want to restart
+    - reset the conversation
+    - begin from the top
+    - let's go back to the beginning
+    - I’d like to start fresh
+    - scrap that, let’s restart
+    - can we redo this?
+    - go back to the start
+    - I want to try again
+    - let’s reset everything
+    - do it from the beginning
+    - ignore what I said earlier, restart
+
+
+
 
 
 

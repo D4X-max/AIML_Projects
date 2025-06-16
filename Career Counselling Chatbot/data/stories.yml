@@ -199,6 +199,29 @@ stories:
     - action: utter_recommend_data_science_personalized
 
 
+- story: feedback positive path
+  steps:
+    - intent: inform_data_science_area
+    - action: utter_recommend_ml_engineer
+    - intent: feedback_positive
+    - action: utter_feedback_thanks
+
+- story: feedback negative path
+  steps:
+    - intent: inform_data_science_area
+    - action: utter_recommend_ml_engineer
+    - intent: feedback_negative
+    - action: utter_feedback_sorry
+
+- story: restart conversation
+  steps:
+    - intent: restart
+    - action: action_restart
+    - action: utter_greet
+
+
+
+
 
 
 
