@@ -234,6 +234,8 @@ nlu:
     - analyzing data
     - data visualization
     - research
+    - I love researching
+    -i love Research
 
 - intent: preferred_industry
   examples: |
