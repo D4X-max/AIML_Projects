@@ -19,13 +19,15 @@ st.markdown("""
         box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
     .user-bubble {
-        background: #DCF8C6;
+        background: #2196F3;
+        color: #fff;
         margin-left: 25%;
         text-align: right;
         border-bottom-right-radius: 4px;
     }
     .bot-bubble {
         background: #F1F0F0;
+        color: #222;
         margin-right: 25%;
         text-align: left;
         border-bottom-left-radius: 4px;
@@ -106,5 +108,6 @@ st.text_input(
     label_visibility="collapsed",
     placeholder="Type your message and press Enter..."
 )
+
 
 
