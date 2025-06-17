@@ -316,6 +316,31 @@ nlu:
     - do it from the beginning
     - ignore what I said earlier, restart
 
+- intent: medicine_interest
+  examples: |
+    - I want to be a doctor
+    - I am interested in medicine
+    - I want to become a surgeon
+    - medical field
+    - healthcare career
+
+- intent: law_interest
+  examples: |
+    - I want to be a lawyer
+    - I am interested in law
+    - legal field
+    - I want to become a judge
+    - law career
+
+- intent: sports_interest
+  examples: |
+    - I want to be an athlete
+    - I am interested in sports
+    - sports career
+    - I want to become a coach
+    - I love playing sports
+
+
 
 
 

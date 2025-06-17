@@ -219,6 +219,34 @@ stories:
     - action: action_restart
     - action: utter_greet
 
+- story: medicine career path
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: medicine_interest
+    - action: utter_ask_medicine_area
+    - intent: affirm
+    - action: utter_recommend_medicine
+
+- story: law career path
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: law_interest
+    - action: utter_ask_law_area
+    - intent: affirm
+    - action: utter_recommend_law
+
+- story: sports career path
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: sports_interest
+    - action: utter_ask_sports_area
+    - intent: affirm
+    - action: utter_recommend_sports
+
+
 
 
 

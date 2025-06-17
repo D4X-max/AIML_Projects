@@ -27,6 +27,9 @@ intents:
   - feedback_positive
   - feedback_negative
   - restart
+  - medicine_interest
+  - law_interest
+  - sports_interest
 
 
 
@@ -150,6 +153,25 @@ responses:
     - text: "Thanks for your feedback! I'm here if you want to explore more options."
   utter_feedback_sorry:
     - text: "I'm sorry to hear that. Let's try a different path or you can restart anytime."
+    
+  utter_ask_medicine_area:
+    - text: "Are you interested in becoming a doctor, nurse, researcher, or something else in healthcare?"
+
+  utter_recommend_medicine:
+    - text: "Medicine is a noble field! You could explore careers as a doctor, nurse, medical researcher, or healthcare administrator."
+
+  utter_ask_law_area:
+    - text: "Are you interested in being a lawyer, judge, legal advisor, or another role in law?"
+
+  utter_recommend_law:
+    - text: "Law offers many paths! You could become a lawyer, judge, legal advisor, or work in public policy."
+
+  utter_ask_sports_area:
+    - text: "Are you interested in being an athlete, coach, sports manager, or working in sports medicine?"
+
+  utter_recommend_sports:
+    - text: "Sports is an exciting field! You could pursue a career as an athlete, coach, sports manager, or in sports medicine."
+
 
 
 
