@@ -30,6 +30,7 @@ intents:
   - medicine_interest
   - law_interest
   - sports_interest
+  - uncertain
 
 
 
@@ -153,7 +154,7 @@ responses:
     - text: "Thanks for your feedback! I'm here if you want to explore more options."
   utter_feedback_sorry:
     - text: "I'm sorry to hear that. Let's try a different path or you can restart anytime."
-    
+
   utter_ask_medicine_area:
     - text: "Are you interested in becoming a doctor, nurse, researcher, or something else in healthcare?"
 
@@ -171,6 +172,10 @@ responses:
 
   utter_recommend_sports:
     - text: "Sports is an exciting field! You could pursue a career as an athlete, coach, sports manager, or in sports medicine."
+
+  utter_handle_uncertainty:
+    - text: "That's okay! Many people aren't sure at first. Would you like to hear about a few options, or tell me what you enjoy most?"
+
 
 
 

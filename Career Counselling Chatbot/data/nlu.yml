@@ -340,6 +340,22 @@ nlu:
     - I want to become a coach
     - I love playing sports
 
+- intent: uncertain
+  examples: |
+    - I'm not sure
+    - I don't know
+    - maybe both
+    - not certain
+    - can't decide
+    - I'm confused
+    - I haven't decided yet
+    - I need help choosing
+    - either is fine
+    - both sound good
+    - I'm not sure which one is better
+    - I'm not sure which one is right
+    - I'm not sure which one is more suitable
+
 
 
 

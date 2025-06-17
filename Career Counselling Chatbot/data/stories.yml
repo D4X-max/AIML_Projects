@@ -246,6 +246,28 @@ stories:
     - intent: affirm
     - action: utter_recommend_sports
 
+- story: handle uncertainty after career question
+  steps:
+    - intent: tech_interest
+    - action: action_recommend_career
+    - intent: uncertain
+    - action: utter_handle_uncertainty
+
+- story: handle uncertainty after arts question
+  steps:
+    - intent: arts_interest
+    - action: action_recommend_career
+    - intent: uncertain
+    - action: utter_handle_uncertainty
+
+- story: handle uncertainty after commerce question
+  steps:
+    - intent: commerce_interest
+    - action: action_recommend_career
+    - intent: uncertain
+    - action: utter_handle_uncertainty
+
+
 
 
 
