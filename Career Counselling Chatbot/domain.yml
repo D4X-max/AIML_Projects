@@ -31,6 +31,19 @@ intents:
   - law_interest
   - sports_interest
   - uncertain
+  - ask_cybersecurity_analyst
+  - ask_penetration_tester
+  - ask_security_architect
+  - ask_software_engineer
+  - ask_web_developer
+  - ask_ml_engineer
+  - ask_data_scientist
+  - ask_painter
+  - ask_musician
+  - ask_writer
+  - ask_business_manager
+  - ask_financial_analyst
+  - ask_marketing_specialist
 
 
 
@@ -53,6 +66,10 @@ slots:
     mappings:
       - type: from_text
   preferred_industry:
+    type: text
+    mappings:
+      - type: from_text
+  cybersecurity_task:
     type: text
     mappings:
       - type: from_text
@@ -175,6 +192,78 @@ responses:
 
   utter_handle_uncertainty:
     - text: "That's okay! Many people aren't sure at first. Would you like to hear about a few options, or tell me what you enjoy most?"
+
+  utter_explain_cybersecurity_analyst:
+    - text: |
+        A Cybersecurity Analyst monitors and protects an organization's computer networks and systems from cyber attacks. They analyze security risks, investigate breaches, and implement security measures to prevent future incidents.
+
+  utter_explain_penetration_tester:
+    - text: |
+        A Penetration Tester (or "ethical hacker") is hired to legally hack into systems and networks to find security vulnerabilities before malicious hackers do. They report their findings and help organizations strengthen their defenses.
+
+  utter_explain_security_architect:
+    - text: |
+        A Security Architect designs and builds secure IT systems and networks for organizations. They create security policies, select appropriate tools, and ensure the overall security architecture is robust against threats.
+
+  utter_explain_software_engineer:
+    - text: |
+        A Software Engineer designs, develops, tests, and maintains computer software. They solve problems using programming languages and work on applications, systems, or embedded software.
+
+  utter_explain_web_developer:
+    - text: |
+        A Web Developer builds and maintains websites or web applications. They work with technologies like HTML, CSS, JavaScript, and frameworks to create user-friendly, interactive web experiences.
+
+  utter_explain_ml_engineer:
+    - text: |
+        A Machine Learning Engineer develops systems and algorithms that allow computers to learn from data and make predictions. They work on projects like recommendation systems, AI models, and automation.
+
+  utter_explain_data_scientist:
+    - text: |
+        A Data Scientist analyzes and interprets complex data to help organizations make decisions. They use statistics, programming, and machine learning to extract insights from large datasets.
+
+  utter_explain_painter:
+    - text: |
+        A Painter creates art using paints on surfaces like canvas, paper, or walls. They express ideas, emotions, or stories through visual compositions and color.
+
+  utter_explain_musician:
+    - text: |
+        A Musician performs, composes, or conducts music. They may sing, play instruments, write songs, or work in bands, orchestras, or as solo artists.
+
+  utter_explain_writer:
+    - text: |
+        A Writer creates written content such as stories, articles, books, or scripts. They use language to communicate ideas, entertain, or inform readers.
+
+  utter_explain_business_manager:
+    - text: |
+        A Business Manager oversees the operations of a company or department. They plan, organize, and coordinate activities to achieve business goals.
+
+  utter_explain_financial_analyst:
+    - text: |
+        A Financial Analyst evaluates financial data, trends, and investments to help businesses make informed decisions about budgeting, spending, and investing.
+
+  utter_explain_marketing_specialist:
+    - text: |
+        A Marketing Specialist develops strategies to promote products or services. They research markets, create campaigns, and analyze consumer behavior.
+
+  utter_ask_cybersecurity_task:
+    - text: "What specific cybersecurity tasks interest you the most? For example, threat analysis, penetration testing, or security architecture?"
+    - text: "Are you more interested in threat analysis, penetration testing, or designing security systems?"
+    - text: "Which cybersecurity area excites you: threat analysis, penetration testing, or security architecture?"
+
+  utter_ask_preferred_industry:
+    - text: "Is there any industry you'd like to work in? (e.g., finance, healthcare, technology, government, etc.)"
+    - text: "Do you have a preferred industry for your cybersecurity career? For example, healthcare, finance, or tech?"
+    - text: "Which industry interests you most for cybersecurity work?"
+
+  utter_recommend_cybersecurity_personalized:
+    - text: "Based on your interest in {cybersecurity_task} within the {preferred_industry} industry, you could pursue roles like Cybersecurity Analyst, Penetration Tester, or Security Architect."
+    - text: "With your focus on {cybersecurity_task} in the {preferred_industry} sector, careers such as Cybersecurity Analyst, Penetration Tester, or Security Architect might be a great fit."
+    - text: "Considering your interest in {cybersecurity_task} and the {preferred_industry} industry, you might enjoy roles like Cybersecurity Analyst, Penetration Tester, or Security Architect."
+
+
+
+
+
 
 
 

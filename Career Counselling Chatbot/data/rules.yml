@@ -17,15 +17,6 @@ rules:
     - intent: nlu_fallback
     - action: utter_default
 
-- rule: Handle positive feedback
-  steps:
-    - intent: feedback_positive
-    - action: utter_feedback_thanks
-
-- rule: Handle negative feedback
-  steps:
-    - intent: feedback_negative
-    - action: utter_feedback_sorry
 
 - rule: Restart conversation
   steps:

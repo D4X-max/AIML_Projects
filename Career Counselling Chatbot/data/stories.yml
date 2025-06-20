@@ -198,20 +198,19 @@ stories:
     - intent: preferred_industry
     - action: utter_recommend_data_science_personalized
 
-
-- story: feedback positive path
+- story: deep dive cybersecurity
   steps:
-    - intent: inform_data_science_area
-    - action: utter_recommend_ml_engineer
-    - intent: feedback_positive
-    - action: utter_feedback_thanks
+    - intent: greet
+    - action: utter_greet
+    - intent: inform_main_interest
+    - action: utter_ask_tech_area
+    - intent: inform_cybersecurity
+    - action: utter_ask_cybersecurity_task
+    - intent: cybersecurity_task
+    - action: utter_ask_preferred_industry
+    - intent: preferred_industry
+    - action: utter_recommend_cybersecurity_personalized
 
-- story: feedback negative path
-  steps:
-    - intent: inform_data_science_area
-    - action: utter_recommend_ml_engineer
-    - intent: feedback_negative
-    - action: utter_feedback_sorry
 
 - story: restart conversation
   steps:
@@ -266,6 +265,74 @@ stories:
     - action: action_recommend_career
     - intent: uncertain
     - action: utter_handle_uncertainty
+
+- story: explain cybersecurity analyst
+  steps:
+    - intent: ask_cybersecurity_analyst
+    - action: utter_explain_cybersecurity_analyst
+
+- story: explain penetration tester
+  steps:
+    - intent: ask_penetration_tester
+    - action: utter_explain_penetration_tester
+
+- story: explain security architect
+  steps:
+    - intent: ask_security_architect
+    - action: utter_explain_security_architect
+
+- story: explain software engineer
+  steps:
+    - intent: ask_software_engineer
+    - action: utter_explain_software_engineer
+
+- story: explain web developer
+  steps:
+    - intent: ask_web_developer
+    - action: utter_explain_web_developer
+
+- story: explain ml engineer
+  steps:
+    - intent: ask_ml_engineer
+    - action: utter_explain_ml_engineer
+
+- story: explain data scientist
+  steps:
+    - intent: ask_data_scientist
+    - action: utter_explain_data_scientist
+
+- story: explain painter
+  steps:
+    - intent: ask_painter
+    - action: utter_explain_painter
+
+- story: explain musician
+  steps:
+    - intent: ask_musician
+    - action: utter_explain_musician
+
+- story: explain writer
+  steps:
+    - intent: ask_writer
+    - action: utter_explain_writer
+
+- story: explain business manager
+  steps:
+    - intent: ask_business_manager
+    - action: utter_explain_business_manager
+
+- story: explain financial analyst
+  steps:
+    - intent: ask_financial_analyst
+    - action: utter_explain_financial_analyst
+
+- story: explain marketing specialist
+  steps:
+    - intent: ask_marketing_specialist
+    - action: utter_explain_marketing_specialist
+
+
+
 
 
 

@@ -402,6 +402,100 @@ nlu:
     - I'm not sure which one is right
     - I'm not sure which one is more suitable
 
+- intent: ask_cybersecurity_analyst
+  examples: |
+    - What is a cybersecurity analyst?
+    - Tell me about the cybersecurity analyst role
+    - What does a cybersecurity analyst do?
+    - Who is a cybersecurity analyst?
+
+- intent: ask_penetration_tester
+  examples: |
+    - What is a penetration tester?
+    - Tell me about penetration testing
+    - What does a penetration tester do?
+    - Who is a penetration tester?
+
+- intent: ask_security_architect
+  examples: |
+    - What is a security architect?
+    - Tell me about security architects
+    - What does a security architect do?
+    - Who is a security architect?
+
+- intent: ask_software_engineer
+  examples: |
+    - What is a software engineer?
+    - Tell me about software engineering
+    - What does a software engineer do?
+    - Who is a software engineer?
+
+- intent: ask_web_developer
+  examples: |
+    - What is a web developer?
+    - Tell me about web development
+    - What does a web developer do?
+    - Who is a web developer?
+
+- intent: ask_ml_engineer
+  examples: |
+    - What is a machine learning engineer?
+    - Tell me about machine learning engineers
+    - What does a machine learning engineer do?
+    - Who is a machine learning engineer?
+
+- intent: ask_data_scientist
+  examples: |
+    - What is a data scientist?
+    - Tell me about data scientists
+    - What does a data scientist do?
+    - Who is a data scientist?
+
+- intent: ask_painter
+  examples: |
+    - What is a painter?
+    - Tell me about painters
+    - What does a painter do?
+    - Who is a painter?
+
+- intent: ask_musician
+  examples: |
+    - What is a musician?
+    - Tell me about musicians
+    - What does a musician do?
+    - Who is a musician?
+
+- intent: ask_writer
+  examples: |
+    - What is a writer?
+    - Tell me about writers
+    - What does a writer do?
+    - Who is a writer?
+
+- intent: ask_business_manager
+  examples: |
+    - What is a business manager?
+    - Tell me about business managers
+    - What does a business manager do?
+    - Who is a business manager?
+
+- intent: ask_financial_analyst
+  examples: |
+    - What is a financial analyst?
+    - Tell me about financial analysts
+    - What does a financial analyst do?
+    - Who is a financial analyst?
+
+- intent: ask_marketing_specialist
+  examples: |
+    - What is a marketing specialist?
+    - Tell me about marketing specialists
+    - What does a marketing specialist do?
+    - Who is a marketing specialist?
+
+
+
+
 
 
 
