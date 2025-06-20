@@ -207,7 +207,7 @@ stories:
     - intent: inform_cybersecurity
     - action: utter_ask_cybersecurity_task
     - intent: cybersecurity_task
-    - action: utter_ask_preferred_industry
+    - action: utter_ask_preferred_industry_cybersecurity
     - intent: preferred_industry
     - action: utter_recommend_cybersecurity_personalized
 

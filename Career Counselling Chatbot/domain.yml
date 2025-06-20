@@ -44,6 +44,7 @@ intents:
   - ask_business_manager
   - ask_financial_analyst
   - ask_marketing_specialist
+  - cybersecurity_task
 
 
 
@@ -250,7 +251,7 @@ responses:
     - text: "Are you more interested in threat analysis, penetration testing, or designing security systems?"
     - text: "Which cybersecurity area excites you: threat analysis, penetration testing, or security architecture?"
 
-  utter_ask_preferred_industry:
+  utter_ask_preferred_industry_cybersecurity:
     - text: "Is there any industry you'd like to work in? (e.g., finance, healthcare, technology, government, etc.)"
     - text: "Do you have a preferred industry for your cybersecurity career? For example, healthcare, finance, or tech?"
     - text: "Which industry interests you most for cybersecurity work?"

@@ -493,6 +493,25 @@ nlu:
     - What does a marketing specialist do?
     - Who is a marketing specialist?
 
+- intent: cybersecurity_task
+  examples: |
+    - network monitoring
+    - threat analysis
+    - vulnerability assessment
+    - penetration testing
+    - incident response
+    - security auditing
+    - firewall management
+    - risk assessment
+    - malware analysis
+    - security policy development
+    - compliance monitoring
+    - intrusion detection
+    - cyber threat intelligence
+    - security operations
+    - ethical hacking
+
+
 
 
 
