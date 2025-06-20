@@ -24,8 +24,6 @@ intents:
   - inform_commerce_marketing
   - data_science_task
   - preferred_industry
-  - feedback_positive
-  - feedback_negative
   - restart
   - medicine_interest
   - law_interest

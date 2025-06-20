@@ -273,7 +273,25 @@ nlu:
     - data visualization
     - research
     - I love researching
-    -i love Research
+    - i love Research
+    - I am passionate about data analysis
+    - I like to create predictive models
+    - I enjoy visualizing complex datasets
+    - I want to conduct scientific research
+    - I love exploring data patterns
+    - I am interested in machine learning
+    - I want to analyze business data
+    - I enjoy working with statistics
+    - I like to interpret data
+    - I want to build AI models
+    - I am fascinated by data science
+    - I want to do data mining
+    - I like to work with large datasets
+    - I enjoy data storytelling
+    - I want to research new algorithms
+    - I love data-driven decision making
+    - I want to explore data visualization techniques
+
 
 - intent: preferred_industry
   examples: |
@@ -294,53 +312,6 @@ nlu:
     - healthcare industry
     - education sector
 
-
-- intent: feedback_positive
-  examples: |
-    - yes
-    - that's helpful
-    - thank you
-    - very useful
-    - I like this suggestion
-    - great, thanks!
-    - that works
-    - perfect!
-    - exactly what I needed
-    - appreciate it
-    - awesome, thank you
-    - that was useful
-    - makes sense, thanks
-    - cool, got it
-    - lovely, thanks!
-    - helpful indeed
-    - thanks for the info
-    - cheers!
-    - works for me
-    - I'm happy with this
-    - sounds good
-
-- intent: feedback_negative
-  examples: |
-    - no
-    - not really
-    - I don't like this
-    - that's not helpful
-    - can I see something else?
-    - this isn't what I wanted
-    - not useful
-    - doesn't help
-    - I’m not satisfied with that
-    - that’s confusing
-    - I was expecting something different
-    - this doesn’t work for me
-    - not what I meant
-    - not quite right
-    - I need a better suggestion
-    - this isn’t correct
-    - nope
-    - nah
-    - I don’t think so
-    - sorry, that’s not it
 
 
 - intent: restart
