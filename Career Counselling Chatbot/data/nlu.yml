@@ -101,6 +101,40 @@ nlu:
     - I enjoy building apps and websites.
     - Technology
     - smartphones
+    - I have always loved technology.
+    - I'm really into computers and gadgets.
+    - Coding is my favorite activity.
+    - I want to learn more about programming.
+    - I'm thinking of a career in tech.
+    - I want to become a software engineer.
+    - I love working with computers.
+    - I'm interested in artificial intelligence.
+    - Robotics fascinates me.
+    - I want to build apps someday.
+    - How do I get into the tech industry?
+    - I enjoy solving technical problems.
+    - I want to work with the latest technology.
+    - I'm interested in web development.
+    - I want to design websites.
+    - I'm good at math and logic.
+    - I want to work for a tech company.
+    - I like playing with new software.
+    - I want to learn about cybersecurity.
+    - I enjoy learning new programming languages.
+    - How do I become a data scientist?
+    - I want to know about tech jobs.
+    - I want to build my own software.
+    - I love experimenting with code.
+    - Tech is my passion.
+    - I want to work in Silicon Valley.
+    - I want to invent something new in technology.
+    - I'm always updating my computer.
+    - I like figuring out how things work.
+    - I want to be a programmer.
+    - I love technology.
+    - Technology is my favorite field.
+    - I want to be part of the next big tech innovation.
+
 
 - intent: arts_interest
   examples: |
@@ -166,12 +200,6 @@ nlu:
     - I'm interested in cybersecurity
     - I want to be a cybersecurity analyst
     - cybersecurity sounds interesting
-
-- intent: inform_tech_area
-  examples: |
-    - I am interested in AI
-    - I like working with hardware
-    - I'm passionate about web development
 
 - intent: inform_data_science_area
   examples: |
@@ -249,15 +277,23 @@ nlu:
 
 - intent: preferred_industry
   examples: |
-    - healthcare
     - finance
+    - healthcare
     - education
     - technology
-    - I want to work in healthcare
+    - tech
+    - I want to work in finance
     - I prefer finance
+    - I want to work in healthcare
+    - I prefer healthcare
+    - I want to work in education
+    - I prefer education
+    - I want to work in technology
+    - I prefer technology
+    - finance industry
+    - healthcare industry
     - education sector
-    - tech industry
-    - I am interested in technology companies
+
 
 - intent: feedback_positive
   examples: |
