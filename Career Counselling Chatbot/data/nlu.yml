@@ -111,6 +111,11 @@ nlu:
     - I enjoy photography and creative work.
     - I love writing stories and poems.
     - How can I get into design?
+    - actually I love arts
+    - I'm interested in arts
+    - I want to pursue arts
+    - art is my passion
+    - I want to switch to arts
 
 - intent: commerce_interest
   examples: |
@@ -121,6 +126,11 @@ nlu:
     - Is accounting a good career?
     - I'm thinking about a career in marketing.
     - How do I become a business analyst?
+    - actually I love commerce
+    - I'm interested in commerce
+    - I want to pursue commerce
+    - commerce is my passion
+    - I want to switch to commerce
 
 - intent: inform_main_interest
   examples: |
