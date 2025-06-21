@@ -58,9 +58,7 @@ This project is an AI-powered career counsellor chatbot built using Rasa and Str
 
 <!-- Add your video walkthrough here -->
 
-[![Video Walkthrough](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
 
-_Replace `VIDEO_ID` with your actual YouTube video ID._
 
 ---
 
