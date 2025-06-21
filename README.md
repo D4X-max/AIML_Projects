@@ -61,7 +61,8 @@ Front end UI sample picture
 
 
 
-[Basic Career Counselling Chatbot](https://github.com/user-attachments/assets/d949d17f-e2c4-46bc-9cd2-8cc3c4b07a9e)
+[Rasa Chatbot.webm](https://github.com/user-attachments/assets/bcf3ccda-3fb6-40c2-af6f-1eaa3302f363)
+
 
 
 ## NOTE: Advancements in the model and enhancements in the chatbot such as use of apis and other features can be made.I will be working on those in the coming days
