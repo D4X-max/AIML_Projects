@@ -245,26 +245,6 @@ stories:
     - intent: affirm
     - action: utter_recommend_sports
 
-- story: handle uncertainty after career question
-  steps:
-    - intent: tech_interest
-    - action: action_recommend_career
-    - intent: uncertain
-    - action: utter_handle_uncertainty
-
-- story: handle uncertainty after arts question
-  steps:
-    - intent: arts_interest
-    - action: action_recommend_career
-    - intent: uncertain
-    - action: utter_handle_uncertainty
-
-- story: handle uncertainty after commerce question
-  steps:
-    - intent: commerce_interest
-    - action: action_recommend_career
-    - intent: uncertain
-    - action: utter_handle_uncertainty
 
 - story: explain cybersecurity analyst
   steps:
@@ -337,6 +317,27 @@ stories:
     - action: utter_ask_preferred_industry
     - intent: data_science_task
     - action: utter_ask_preferred_industry
+
+- story: data science - research path
+  steps:
+    - intent: inform_data_science
+    - action: utter_ask_data_science_area
+    - intent: research_interest
+    - action: utter_recommend_research
+
+- story: data science - build ai models path
+  steps:
+    - intent: inform_data_science
+    - action: utter_ask_data_science_area
+    - intent: build_ai_models_interest
+    - action: utter_recommend_build_ai_models
+
+- story: data science - analyze business data path
+  steps:
+    - intent: inform_data_science
+    - action: utter_ask_data_science_area
+    - intent: analyze_business_data_interest
+    - action: utter_recommend_analyze_business_data
 
 
 

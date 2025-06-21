@@ -483,6 +483,44 @@ nlu:
     - ethical hacking
 
 
+- intent: research_interest
+  examples: |
+    - research
+    - I want to do research
+    - I love research
+    - I'm interested in research
+    - I want to conduct research
+    - I enjoy researching
+    - I like doing research
+    - scientific research
+    - I want to do scientific research
+    - I want to explore new ideas through research
+
+- intent: build_ai_models_interest
+  examples: |
+    - building AI models
+    - I want to build AI models
+    - I like building AI models
+    - I want to work on AI models
+    - I enjoy building AI models
+    - I want to develop AI models
+    - AI model building
+    - I want to create AI models
+    - I am interested in building AI models
+
+- intent: analyze_business_data_interest
+  examples: |
+    - analyzing business data
+    - I want to analyze business data
+    - I like analyzing business data
+    - I want to work with business data
+    - I enjoy analyzing business data
+    - business data analysis
+    - I want to do business data analysis
+    - I am interested in analyzing business data
+
+
+
 
 
 

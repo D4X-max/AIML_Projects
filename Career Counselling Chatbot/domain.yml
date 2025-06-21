@@ -43,6 +43,10 @@ intents:
   - ask_financial_analyst
   - ask_marketing_specialist
   - cybersecurity_task
+  - research_interest
+  - build_ai_models_interest
+  - analyze_business_data_interest
+
 
 
 
@@ -258,6 +262,15 @@ responses:
     - text: "Based on your interest in {cybersecurity_task} within the {preferred_industry} industry, you could pursue roles like Cybersecurity Analyst, Penetration Tester, or Security Architect."
     - text: "With your focus on {cybersecurity_task} in the {preferred_industry} sector, careers such as Cybersecurity Analyst, Penetration Tester, or Security Architect might be a great fit."
     - text: "Considering your interest in {cybersecurity_task} and the {preferred_industry} industry, you might enjoy roles like Cybersecurity Analyst, Penetration Tester, or Security Architect."
+
+  utter_recommend_research:
+    - text: "Research in data science can lead you to roles in academia, R&D, or innovative startups. You might enjoy being a Data Science Researcher or Research Scientist."
+
+  utter_recommend_build_ai_models:
+    - text: "Building AI models is an exciting path! You could become a Machine Learning Engineer or AI Developer."
+
+  utter_recommend_analyze_business_data:
+    - text: "Analyzing business data is crucial for organizations. You might enjoy roles like Business Data Analyst or Data Consultant."
 
 
 
