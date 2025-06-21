@@ -51,7 +51,10 @@ This project is an AI-powered career counsellor chatbot built using Rasa and Str
 - Implement Rasa Forms for structured slot filling.
 - Integrate external APIs for real-time career data.
 - Add multilingual support.
-
+---
+Front end UI sample picture
+![image](https://github.com/user-attachments/assets/63b12937-e888-41e3-8ab9-fcb96b7c36d7)
+---
 ---
 
 ## Video Walkthrough
