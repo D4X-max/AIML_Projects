@@ -1,72 +1,71 @@
-## AI Career Counsellor Chatbot
-# Project Overview
+# AI Career Counsellor Chatbot
+
+## Project Overview
 This project is an AI-powered career counsellor chatbot built using Rasa and Streamlit. It guides users through a conversational flow to discover suitable career paths based on their interests in technology, arts, commerce, and more.
 
-Features and Implementation Steps
-Intent Creation and NLU Training
+## Features and Implementation Steps
 
-Created intents for major career domains such as tech, arts, and commerce.
+1. **Intent Creation and NLU Training**
+   - Created intents for major career domains such as tech, arts, and commerce.
+   - Added detailed intents for sub-areas like software development, data science, cybersecurity, visual arts, performing arts, and commerce specializations.
+   - Used NLU examples to train the model for accurate intent classification.
 
-Added detailed intents for sub-areas like software development, data science, cybersecurity, visual arts, performing arts, and commerce specializations.
+2. **Text Preprocessing**
+   - Utilized NLTK for preprocessing user input to improve intent recognition and handle variations.
 
-Used NLU examples to train the model for accurate intent classification.
+3. **Rasa Chatbot Training**
+   - Developed stories and rules to manage multi-turn conversations.
+   - Implemented slot filling to remember user preferences and personalize recommendations.
+   - Added custom actions for dynamic career recommendations based on user input.
 
-Text Preprocessing
+4. **Career Recommendation Logic**
+   - Designed logic to recommend careers based on keywords and slot values.
+   - Included detailed explanations for specific roles when users ask for more information.
 
-Utilized NLTK for preprocessing user input to improve intent recognition and handle variations.
+5. **Frontend Development with Streamlit**
+   - Created a modern, chat-like UI using Streamlit.
+   - Implemented session state to maintain conversation history.
+   - Styled messages to resemble phone text conversations for better user experience.
 
-Rasa Chatbot Training
+6. **Testing and Debugging**
+   - Tested the chatbot extensively with real user inputs.
+   - Debugged intent recognition and conversation flow issues.
+   - Enhanced NLU data and stories to handle topic switching and fallback scenarios.
 
-Developed stories and rules to manage multi-turn conversations.
+7. **Deployment**
+   - Prepared the chatbot for deployment via Streamlit Cloud for easy access.
 
-Implemented slot filling to remember user preferences and personalize recommendations.
+## How to Run the Project
 
-Added custom actions for dynamic career recommendations based on user input.
+# - Train the Rasa model:
+    rasa train
+# - Run the Rasa server:
+    rasa run --enable-api
+# - Run the Streamlit frontend:
+    streamlit run app.py
 
-Career Recommendation Logic
 
-Designed logic to recommend careers based on keywords and slot values.
+## Future Enhancements
 
-Included detailed explanations for specific roles when users ask for more information.
+- Add more detailed career paths and industries.
+- Implement Rasa Forms for structured slot filling.
+- Integrate external APIs for real-time career data.
+- Add multilingual support.
 
-Frontend Development with Streamlit
+---
 
-Created a modern, chat-like UI using Streamlit.
+## Video Walkthrough
 
-Implemented session state to maintain conversation history.
+<!-- Add your video walkthrough here -->
 
-Styled messages to resemble phone text conversations for better user experience.
+[![Video Walkthrough](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
 
-Testing and Debugging
+_Replace `VIDEO_ID` with your actual YouTube video ID._
 
-Tested the chatbot extensively with real user inputs.
+---
 
-Debugged intent recognition and conversation flow issues.
+This README summarizes the development journey and key features of the AI Career Counsellor chatbot project.
 
-Enhanced NLU data and stories to handle topic switching and fallback scenarios.
+---
 
-Deployment
 
-Prepared the chatbot for deployment via Streamlit Cloud for easy access.
-
-How to Run the Project
-Train the Rasa model:
-
-bash
-rasa train
-Run the Rasa server:
-
-bash
-rasa run --enable-api
-Run the Streamlit frontend:
-
-bash
-streamlit run app.py
-Future Enhancements
-Add more detailed career paths and industries.
-
-Implement Rasa Forms for structured slot filling.
-
-Integrate external APIs for real-time career data.
-
-Add multilingual support.
