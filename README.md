@@ -59,6 +59,8 @@ Front end UI sample picture
 
 ## Video Walkthrough
 
+https://www.loom.com/share/2ed6a65349cc45089fd5202d58ab453b?sid=a524aa8c-39e9-4c5f-b602-4d6905a87902
+
 <!-- Add your video walkthrough here -->
 
 
