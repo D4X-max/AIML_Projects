@@ -1,4 +1,4 @@
-# AI Career Counsellor Chatbot
+[screen-capture.webm](https://github.com/user-attachments/assets/fcccc8cf-e4d5-4550-acb0-0d583b4d34f5)# AI Career Counsellor Chatbot
 
 ## Project Overview
 This project is an AI-powered career counsellor chatbot built using Rasa and Streamlit. It guides users through a conversational flow to discover suitable career paths based on their interests in technology, arts, commerce, and more.
@@ -59,9 +59,10 @@ Front end UI sample picture
 
 ## Video Walkthrough
 
-https://www.loom.com/share/2ed6a65349cc45089fd5202d58ab453b?sid=a524aa8c-39e9-4c5f-b602-4d6905a87902
 
-<!-- Add your video walkthrough here -->
+
+[screen-capture.webm](https://github.com/user-attachments/assets/d949d17f-e2c4-46bc-9cd2-8cc3c4b07a9e)
+
 
 
 
