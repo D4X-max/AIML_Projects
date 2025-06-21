@@ -331,6 +331,14 @@ stories:
     - intent: ask_marketing_specialist
     - action: utter_explain_marketing_specialist
 
+- story: repeat data science task
+  steps:
+    - intent: data_science_task
+    - action: utter_ask_preferred_industry
+    - intent: data_science_task
+    - action: utter_ask_preferred_industry
+
+
 
 
 
